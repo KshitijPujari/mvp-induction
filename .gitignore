@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs / logs
+outputs/
+logs/
+*.log
+
+# Data
+data/
+
+# Packaging
+dist/
+build/
+*.egg-info
+
+# Jupyter
+.ipynb_checkpoints/
+
+frontend/
+*.html

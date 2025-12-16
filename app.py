@@ -20,6 +20,7 @@ CORS(app)  # Enable CORS for frontend
 ROOT = os.path.dirname(__file__)
 OUTPUT_DIR = os.path.join(ROOT, "outputs")
 DATA_DIR = os.path.join(ROOT, "data")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 @app.route('/')
